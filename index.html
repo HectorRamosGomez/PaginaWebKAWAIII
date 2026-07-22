@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthx, initial-scale=1.0">
+
+    <title>KAW-AII Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header (15% de la altura total) -->
+    <header>
+        <h1 class="header-title">KAW-AII</h1>
+        <nav class="header-nav">
+            <a href="#planes" class="btn">Planes</a>
+            <a href="fotos.html" class="btn">Fotos</a>
+            <a href="#trabajando" class="btn">Trabajando en ello</a>
+        </nav>
+    </header>
+
+    <!-- Main / Body (85% restante de la altura) -->
+    <main>
+        <div class="container">
+            <!-- Corazón interactivo -->
+            <img src="corazon.jpg" alt="Corazón Kawaii Pixel Art" class="heart-img" id="heart">
+            
+            <!-- Bocadillo de diálogo / Nube -->
+            <div class="dialog-cloud hidden" id="dialog-cloud">
+                <p id="dialog-text"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
